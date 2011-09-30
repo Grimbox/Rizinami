@@ -8,7 +8,7 @@ from google.appengine.ext.webapp.util import run_wsgi_app
 
 class MainPage(webapp.RequestHandler):
     def get(self): 
-    	templates_values = {'greetings':'Hello!', 'url':'http://rizinami.appspot.com'}
+    	templates_values = {'version':'0.1'}
     	path = os.path.join(os.path.dirname(__file__), 'index.html')
     	self.response.out.write(template.render(path,templates_values))
 
@@ -20,28 +20,30 @@ class Medic():
 		return self.riziv
 
 	def __str__(self):
-		return self.riziv
+		return 'try ' + self.riziv
 
 class PeerReview(webapp.RequestHandler):
 	def post(self):
 		activityNumber = cgi.escape(self.request.get('reviewName')).upper()
 		activityDate = cgi.escape(self.request.get('reviewDate'))
 		content = cgi.escape(self.request.get('content'))
-		content = content.split()
 		
-		self.response.out.write('<html><body>Results:')
-		self.response.out.write('<ul>')
-		
-		meds = [ Medic(rz) for rz in content]
+		meds = [ Medic(rz) for rz in content.split()]
 
-		for r in meds:
-			self.response.out.write('<li>' + activityNumber + ';' + unicode(r) + ';;1;1;' + activityDate + '</li>')
+		templates_values = { 
+			'activityNumber': activityNumber,
+			'activityDate' : activityDate,
+			'meds' : meds 
+		}		
+
+		# for r in meds:
+		# 	self.response.out.write('<li>' + activityNumber + ';' + unicode(r) + ';;1;1;' + activityDate + '</li>')
 		
-		self.response.out.write('</ul>')
-		self.response.out.write('</pre></body></html>')
+		path = os.path.join(os.path.dirname(__file__), 'results.html')
+		self.response.out.write(template.render(path, templates_values))
 	
 	def checkRIZIV(self, number):
-		return True
+		pass
 
 application = webapp.WSGIApplication(
                                      [('/', MainPage),

@@ -1,44 +1,33 @@
-<html>
-	<head>
-		<title>Rizinami :: Peer Review settings</title>
-		<link href="/stylesheets/custom-theme/jquery-ui-1.8.16.custom.css" rel="Stylesheet" type="text/css" />
-    	<script src="/scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
-    	<script src="/scripts/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
-    
-	    <script type="text/javascript">
-	        $(document).ready(function () {
-	            $('#reviewDate').datepicker({
-	            	dateFormat: 'yy-mm-dd',
-	                date: $('#reviewDate').val(),
-	                current: $('#reviewDate').val(),
-	                firstDay: 1,
-	                starts: 1,
-	                position: 'r',
-	                changeMonth: false,
-	                changeYear: false,
-	                yearRange: "-5:+5",
-	                onBeforeShow: function () {
-	                    $('#reviewDate').datepickerSetDate($('#reviewDate').val(), true);
-	                }
-	            });
-	        });
-	    </script>
-	</head>
-    <body>
-    	<div class="ui-widget">
-    		<div class="ui-state-highlight ui-corner-all">
-    			Rizinami v0.1
-    		</div>
-    	</div>
-		<form action="/peerReview" method="post">
-			<div>Activity number <input type="text" name="reviewName" cols="60" /></div>
-			<div>Activity Date (format YYYY-MM-DD)<input type="text" id="reviewDate" name="reviewDate" cols="60" /></div>
-			<div><textarea name="content" rows="10" cols="60"></textarea></div>
-			<div><input type="submit" value="Send data"></div>
-		</form>
-		<div id="footer">
-			<!--<img src="/images/footer/jQuery_logo_bw.png" alt="jQuery Powered" height="30px" />
-			<img src="/images/footer/jQuery__UI_logo_color_onwhite.png" alt="jQuery UI Powered" height="30px" />-->
-		</div>
-    </body>
-  </html>
+{% extends "base.html" %}
+
+{% block action %}Peer review settings{% endblock %}
+
+{% block scripts %}	
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#reviewDate').datepicker({
+            	dateFormat: 'yy-mm-dd',
+                date: $('#reviewDate').val(),
+                current: $('#reviewDate').val(),
+                firstDay: 1,
+                starts: 1,
+                position: 'r',
+                changeMonth: false,
+                changeYear: false,
+                yearRange: "-5:+5",
+                onBeforeShow: function () {
+                    $('#reviewDate').datepickerSetDate($('#reviewDate').val(), true);
+                }
+            });
+        });
+    </script>
+{% endblock %}
+
+{% block content %}
+	<form action="/peerReview" method="post">
+		<div>Activity number <input type="text" name="reviewName" cols="60" /></div>
+		<div>Activity Date (format YYYY-MM-DD)<input type="text" id="reviewDate" name="reviewDate" cols="60" /></div>
+		<div><textarea name="content" rows="10" cols="60"></textarea></div>
+		<div><input type="submit" value="Send data"></div>
+	</form>
+{% endblock %}
