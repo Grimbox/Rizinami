@@ -20,7 +20,7 @@ class Medic():
 		return self.riziv
 
 	def __str__(self):
-		return 'try ' + self.riziv
+		return self.riziv
 
 class PeerReview(webapp.RequestHandler):
 	def post(self):
