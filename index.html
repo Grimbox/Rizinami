@@ -3,6 +3,11 @@
 {% block action %}Peer review settings{% endblock %}
 
 {% block scripts %}	
+	<<script type="text/javascript" language="javascript">
+		$(document).ready(function(){
+			$("#peerReviewForm").validate();
+		});
+	</script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('#reviewDate').datepicker({
@@ -24,7 +29,7 @@
 {% endblock %}
 
 {% block content %}
-	<form action="/peerReview" method="post">
+	<form id="peerReviewForm" action="/peerReview" method="post">
 		<div>Activity number <input type="text" name="reviewName" cols="60" /></div>
 		<div>Activity Date (format YYYY-MM-DD)<input type="text" id="reviewDate" name="reviewDate" cols="60" /></div>
 		<div><textarea name="content" rows="10" cols="60"></textarea></div>
