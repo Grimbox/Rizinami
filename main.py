@@ -35,9 +35,6 @@ class PeerReview(webapp.RequestHandler):
 			'activityDate' : activityDate,
 			'meds' : meds 
 		}		
-
-		# for r in meds:
-		# 	self.response.out.write('<li>' + activityNumber + ';' + unicode(r) + ';;1;1;' + activityDate + '</li>')
 		
 		path = os.path.join(os.path.dirname(__file__), 'results.html')
 		self.response.out.write(template.render(path, templates_values))

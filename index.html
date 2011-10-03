@@ -3,11 +3,6 @@
 {% block action %}Peer review settings{% endblock %}
 
 {% block scripts %}	
-	<<script type="text/javascript" language="javascript">
-		$(document).ready(function(){
-			$("#peerReviewForm").validate();
-		});
-	</script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('#reviewDate').datepicker({
@@ -24,15 +19,36 @@
                     $('#reviewDate').datepickerSetDate($('#reviewDate').val(), true);
                 }
             });
+
+            $("#peerReviewForm").validate({
+                rules: {
+                    reviewName: "required",
+                    reviewDate: "required",
+                    content: "required",
+                },   
+                messages: {
+                    reviewName: "* Please enter a peer-review activity number",
+                    reviewDate: "* Please enter a peer-review activity date",
+                    content : "* Please enter at least one INAMI/Riziv number"    
+                }
+            });
         });
     </script>
+    <style type="text/css">
+        #peerReviewForm {  }
+        #peerReviewForm label { width: 250px; }
+        #peerReviewForm label.error, #commentForm input.submit 
+        { 
+            color: red;
+        }
+    </style>
 {% endblock %}
 
 {% block content %}
 	<form id="peerReviewForm" action="/peerReview" method="post">
-		<div>Activity number <input type="text" name="reviewName" cols="60" /></div>
-		<div>Activity Date (format YYYY-MM-DD)<input type="text" id="reviewDate" name="reviewDate" cols="60" /></div>
-		<div><textarea name="content" rows="10" cols="60"></textarea></div>
+		<div>Activity number <input type="text" name="reviewName" cols="60"/></div>
+		<div>Activity Date (format YYYY-MM-DD)<input type="text" id="reviewDate" name="reviewDate" cols="60" class="required" /></div>
+		<div><textarea name="content" rows="10" cols="60" class="required"></textarea></div>
 		<div><input type="submit" value="Send data"></div>
 	</form>
 {% endblock %}
