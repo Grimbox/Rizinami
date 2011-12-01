@@ -45,10 +45,18 @@
 {% endblock %}
 
 {% block content %}
+    <h3>Step One</h3>
+    Fill in this form and hit the 'Download data' button.
 	<form id="peerReviewForm" action="/peerReview" method="post">
 		<div>Activity number <input type="text" name="reviewName" cols="60"/></div>
 		<div>Activity Date (format YYYY-MM-DD)<input type="text" id="reviewDate" name="reviewDate" cols="60" class="required" /></div>
 		<div><textarea name="content" rows="10" cols="60" class="required"></textarea></div>
-		<div><input type="submit" value="Send data"></div>
+		<div><input type="submit" value="Download data"></div>
 	</form>
+    <h3>Step two</h3>
+    <ul>
+        <li><a href="https://www.inami.fgov.be/webprd/appl/pacc/auth/Login.aspx?ReturnUrl=%2fwebprd%2fappl%2fpacc%2fUC12%2fParticipationsBatchUpload.aspx">Go here and upload the file</a>! :)
+    </ul>
+    <h3>Step three</h3>
+    Wait for the file to be approved.
 {% endblock %}

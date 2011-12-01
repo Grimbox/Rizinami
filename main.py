@@ -6,6 +6,10 @@ from google.appengine.api import users
 from google.appengine.ext import webapp
 from google.appengine.ext.webapp.util import run_wsgi_app
 
+from django.http import HttpResponse
+
+import datetime
+
 class MainPage(webapp.RequestHandler):
     def get(self): 
     	templates_values = {'version':'0.1'}
@@ -30,17 +34,34 @@ class PeerReview(webapp.RequestHandler):
 		
 		meds = [ Medic(rz) for rz in content.split()]
 
-		templates_values = { 
-			'activityNumber': activityNumber,
-			'activityDate' : activityDate,
-			'meds' : meds 
-		}		
-		
-		path = os.path.join(os.path.dirname(__file__), 'results.html')
-		self.response.out.write(template.render(path, templates_values))
+		content = ''
+
+		for med in meds:
+			content += unicode(activityNumber) + ';' + unicode(med) + ';;1;1;' + unicode(activityDate) + '\r\n'
+
+		self.response.headers['Content-Type'] = 'text/csv'
+		self.response.headers['Content-Disposition'] = 'attachment; filename=%s'%self.generateFilename()
+		self.response.out.write(content)
 	
+	""" Verifies a Riziv/Inami number against the check digit.
+	"""
 	def checkRIZIV(self, number):
 		pass
+
+	""" return a representation of 'now' according to file name standard.
+
+		eg. 
+			1st of december 2011 @ 2h00 will result in 'PeerReview 2011-12-01 0200.txt'
+	"""
+	def generateFilename(self):
+		return datetime.datetime.now().strftime("PeerReview_%Y-%m-%d_%H%M.txt")
+
+class GetPeerReview(webapp.RequestHandler):
+	def get(self):
+		self.response.headers['Content-Type'] = 'text/csv'
+		self.response.headers['Content-Disposition'] = 'attachment; filename=my.txt'
+		self.response.out.write('my fantastic me, myself and I')
+
 
 application = webapp.WSGIApplication(
                                      [('/', MainPage),
