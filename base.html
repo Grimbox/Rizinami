@@ -2,53 +2,49 @@
 <html lang="en">
 <head>
     <link href="/stylesheets/main.css" rel="Stylesheet" type="text/css" />
+    <link href="/stylesheets/navigationMenu.css" rel="Stylesheet" type="text/css" />
     <link href="/stylesheets/custom-theme/jquery-ui-1.8.16.custom.css" rel="Stylesheet" type="text/css" />
     <script src="/scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
     <script src="/scripts/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
 	<script src="/scripts/jquery.validate-pre-1.5.2.js" type="text/javascript"></script>
+
     <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Lemon' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cabin+Condensed:500' rel='stylesheet' type='text/css'>
     
     {% block scripts %}{% endblock %}
     
-    <title>{% block title %}Rizinami :: Peer Review settings{% endblock %}</title>
+    <title>{% block title %}Rizinami{% endblock %}</title>
 </head>
 
 <body>
-
-    <div id="navigation">
-        <ul id="navigationMenu">
+    <div id="navigationMenu">
+        <ul>
             <li>
-                <a class="home" href="#">
-                    <span>Home</span>
-                </a>
-            </li>
+                <a href="/">Home</a></li>
+            <!-- <li>
+                <a href="#">Aide</a></li>
             <li>
-                <a class="help" href="#">
-                    <span>Aide</span>
-                </a>
-            </li>
+                <a href="#">Ressources</a></li> -->
             <li>
-                <a class="inami_link" href="#">
-                    <span>INAMI</span>
-                </a>
-            </li>
+                 <a href="https://www.inami.fgov.be/webprd/appl/pacc/auth/Login.aspx?ReturnUrl=%2fwebprd%2fappl%2fpacc%2fUC12%2fParticipationsBatchUpload.aspx" target="_blank"><span>INAMI</span></a></li>
         </ul>
     </div>
-    <a href="/">Rizinami v0.2</a>
+
     
-    <ul style="list-style:none; margin: 0; padding: 0;">
+<!--     <ul style="list-style:none; margin: 0; padding: 0;">
         <li><a href="https://www.inami.fgov.be/webprd/appl/pacc/auth/Login.aspx?ReturnUrl=%2fwebprd%2fappl%2fpacc%2fUC12%2fParticipationsBatchUpload.aspx">Envoi des fichiers</a></li>
         <li><a href="/help">Aide</a></li>
     </ul>
-
+ -->
 
     <div id="content">
         {% block content %}{% endblock %}
     </div>
 
-
+<!-- 
     <div id="footer">
        <img src="/images/footer/appengine-silver-120x30.gif" alt="Powered by Google App Engine" />
-    </div>
+    </div> -->
 </body>
 </html>

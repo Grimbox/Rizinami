@@ -31,7 +31,7 @@
 
 #navigationMenu ul li a {
 	text-decoration: none;
-	font-family: 'Bubblegum Sans', cursive;
+	font-family: 'Cabin Condensed', cursive;
 	font-weight: 400;
 	font-size: xx-large;
 	color: #f0f0f0;
@@ -40,5 +40,5 @@
 
 #navigationMenu ul li a:hover 
 {
-	color: #d0eacf;
+	color: #17a3ca;
 }
