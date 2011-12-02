@@ -55,9 +55,15 @@ class PeerReview(webapp.RequestHandler):
 	def generateFilename(self):
 		return datetime.datetime.now().strftime("PeerReview_%Y-%m-%d_%H%M.txt")
 
+class Help(webapp.RequestHandler):
+	def get(self):
+		path = os.path.join(os.path.dirname(__file__), 'help.html')
+		self.response.out.write(template.render(path,None))
+
 application = webapp.WSGIApplication(
                                      [('/', MainPage),
-                                      ('/peerReview', PeerReview)],
+                                      ('/peerReview', PeerReview),
+                                      ('/help', Help)],
                                      debug=True)
 
 def main():

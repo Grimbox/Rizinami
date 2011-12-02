@@ -16,8 +16,5 @@ handlers:
 - url: /about
   script: about.py
 
-- url: /help
-  script: help.py
-
 - url: /.*
   script: main.py
