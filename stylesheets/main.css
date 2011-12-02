@@ -1,25 +1,7 @@
-* { margin: 0px; padding: 0px; }
-
-body 
-{
-	/*background:#111 no-repeat;
-    background-image:-moz-radial-gradient(center -100px 45deg, circle farthest-corner, #444 150px, #111 300px);
-    background-image:-webkit-gradient(radial, 50% 0, 150, 50% 0, 300, from(#444), to(#111));*/
-}
-
-#wrap { min-height: 100%;}
-
-#main {
-	overflow: auto;
-	padding-bottom: 150px;
-}
+* { margin: 0; padding: 0; }
 
 #footer {
-	position: relative;
-	margin-top: -150px; /* negative value of footer height */
-	height: 150px;
 	clear:both;
-	background-color: #C0C0C0;
 }
 
 #content
