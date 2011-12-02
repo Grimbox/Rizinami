@@ -1,6 +1,7 @@
 
 #navigationMenu
 {
+	background-color: #2b3636;
 	background-image: linear-gradient(bottom, rgb(65,80,102) 0%, rgb(43,54,54) 63%);
 	background-image: -o-linear-gradient(bottom, rgb(65,80,102) 0%, rgb(43,54,54) 63%);
 	background-image: -moz-linear-gradient(bottom, rgb(65,80,102) 0%, rgb(43,54,54) 63%);
@@ -14,7 +15,7 @@
 		color-stop(0, rgb(65,80,102)),
 		color-stop(0.63, rgb(43,54,54))
 	);
-	border-bottom: 2px solid #4c5fef;;
+	border-bottom: 2px solid #0a124d;;
 }
 
 #navigationMenu ul
