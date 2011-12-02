@@ -49,19 +49,11 @@ class PeerReview(webapp.RequestHandler):
 		pass
 
 	""" return a representation of 'now' according to file name standard.
-
 		eg. 
-			1st of december 2011 @ 2h00 will result in 'PeerReview 2011-12-01 0200.txt'
+			1st of december 2011 @ 2h00 will result in 'PeerReview_2011-12-01_0200.txt'
 	"""
 	def generateFilename(self):
 		return datetime.datetime.now().strftime("PeerReview_%Y-%m-%d_%H%M.txt")
-
-class GetPeerReview(webapp.RequestHandler):
-	def get(self):
-		self.response.headers['Content-Type'] = 'text/csv'
-		self.response.headers['Content-Disposition'] = 'attachment; filename=my.txt'
-		self.response.out.write('my fantastic me, myself and I')
-
 
 application = webapp.WSGIApplication(
                                      [('/', MainPage),
