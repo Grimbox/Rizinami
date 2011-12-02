@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
-{% block action %}Peer review settings{% endblock %}
-
 {% block scripts %}	
+    <link href="/stylesheets/form.css" rel="Stylesheet" type="text/css" />
+
     <script type="text/javascript">
         $(document).ready(function () {
             $('#reviewDate').datepicker({
@@ -27,36 +27,43 @@
                     content: "required",
                 },   
                 messages: {
-                    reviewName: "* Please enter a peer-review activity number",
-                    reviewDate: "* Please enter a peer-review activity date",
-                    content : "* Please enter at least one INAMI/Riziv number"    
+                    reviewName: "* Merci d'entrer l'identifiant de l'activité.",
+                    reviewDate: "* Merci d'entrer la date à laquelle l'activité s'est déroulée.",
+                    content : "* Merci d'entrer ici la liste des numéros INAMI correspondant aux participants."    
                 }
             });
         });
     </script>
     <style type="text/css">
         #peerReviewForm {  }
-        #peerReviewForm label { width: 250px; }
+        #peerReviewForm label { width: 10em; float: left; }
         #peerReviewForm label.error, #commentForm input.submit 
         { 
-            color: red;
+            float: none; color: red; padding-left: .5em; vertical-align: top;
         }
+        #peerReview p { clear:both;}
     </style>
+    
 {% endblock %}
 
 {% block content %}
-    <h3>Step One</h3>
-    Fill in this form and hit the 'Download data' button.
 	<form id="peerReviewForm" action="/peerReview" method="post">
-		<div>Activity number <input type="text" name="reviewName" cols="60"/></div>
-		<div>Activity Date (format YYYY-MM-DD)<input type="text" id="reviewDate" name="reviewDate" cols="60" class="required" /></div>
-		<div><textarea name="content" rows="10" cols="60" class="required"></textarea></div>
-		<div><input type="submit" value="Download data"></div>
+        <h1>Détails de l'activité:</h1>
+        <fieldset id="column1">
+            <label for="reviewName">Activité:</label>
+            <input type="text" name="reviewName" value="" class="required" /> 
+        
+            <label for="reviewDate">Date:</label> 
+            <input type="date" id="reviewDate" name="reviewDate" value="" class="required" /> 
+        
+        </fieldset>
+
+        <fieldset id="column2">
+            <label for="content">Numéros INAMI des participants:</label>
+            <textarea name="content" rows="0" cols="0" class="required"></textarea>
+
+            <input type="submit" value="Download" name="submit" class="submit" />       
+        </fieldset>
+		
 	</form>
-    <h3>Step two</h3>
-    <ul>
-        <li><a href="https://www.inami.fgov.be/webprd/appl/pacc/auth/Login.aspx?ReturnUrl=%2fwebprd%2fappl%2fpacc%2fUC12%2fParticipationsBatchUpload.aspx">Go here and upload the file</a>! :)
-    </ul>
-    <h3>Step three</h3>
-    Wait for the file to be approved.
 {% endblock %}

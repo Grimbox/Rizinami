@@ -13,5 +13,11 @@ handlers:
 - url: /images
   static_dir: images
 
+- url: /about
+  script: about.py
+
+- url: /help
+  script: help.py
+
 - url: /.*
   script: main.py
