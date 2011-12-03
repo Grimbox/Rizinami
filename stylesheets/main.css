@@ -39,12 +39,47 @@
 h1 { 
     color: #555; 
     margin: 0 0 20px 0; 
+}
+
+h2
+{
+    margin: 20px;
 }   
     
 label { 
     font-size: 20px;
     color: #666; 
 }	 
+
+#content a 
+{
+    text-decoration: dotted;
+    color: inherit;
+}
+
+#content a:before
+{
+    content: url('/images/icons/world_link.png');
+    margin: 2px;
+}
+
+#content a:hover
+{
+    color: #17a3ca;
+}
+
+#content ul
+{
+    margin: 20px;
+    list-style: none;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+#content ul li:before 
+{
+    content: "\00BB \0020";
+}
 
 .clear
 {

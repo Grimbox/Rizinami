@@ -2,8 +2,26 @@
 
 {% block content %}
 	<h1>Aide à l'utilisation</h1>
-	<p>Le but de cette application est de 'traduire' une liste de numéros INAMI dans une structure particulière, définie dans les documents de spécifications.</p>
+	<p>Le but de cette application est de 'traduire' une liste de numéros INAMI dans une structure particulière, définie dans les documents de spécifications, dans le cadre des accréditations. L'application originale développée par l'INAMI permet plusieurs choses:</p>
+	<ul>
+		<li><a href="https://www.inami.fgov.be/webprd/appl/pacc/UC19/SearchActivity.aspx">Rechercher des activités dans un intervalle de temps donné;</a></li>
+		<li><a href="https://www.inami.fgov.be/webprd/appl/pacc/UC12/ActivityParticipations.aspx">Rechercher une activité dont les données ont été précédemment envoyées;</a></li>
+		<li><a href="https://www.inami.fgov.be/webprd/appl/pacc/UC12/ParticipationsBatchUpload.aspx">Envoyer un ensemble de données correspondant à une activité.</a></li>
+	</ul>
 
-	<h1>Comment nous contacter?</h1>
-	<p>Le code source de cette application est hébergé sur <a href="https://github.com/Onicha/Rizinami" alt="GitHub">GitHub</a>. En cas de problème, il vous est possible de laisser une issue ouverte depuis <a href="https://github.com/Onicha/Rizinami/issues" alt="">la page suivante</a>.</p>
+	<h2>Ce que l'application fait</h2>
+	<p>L'application courante se charge de mettre les données en forme pour qu'elles soient acceptées par l'application INAMI. Les formats pris en charge sont décrits à la page 14 du <a href="https://www.inami.fgov.be/webprd/appl/pacc/Resources/Introduction.docx">document de spécifications</a>. Elle génère donc un document texte proprement formaté pour un contexte particulier. Voir les contraintes ci-dessous :)</p>
+
+	<h2>Ce que l'application ne fait pas encore</h2>
+	<p>(Non, ce n'est pas encore parfait):</p>
+	<ul>
+		<li>Elle ne gère pas les "non participants"</li>
+		<li>Elle n'exporte pas les informations dans le format XML</li>
+		<li>Elle ne gère pas le rôle du participant; un rôle par défaut ("participant") est donné à chaque membre. Ce comportement n'est valable <u>que</u> dans le cadre de l'accréditation des dentistes, ce rôle étant le seul admis.</li>
+		<li>Elle ne vérifie pas la validité des numéros INAMI et génèrera donc un fichier avec les numéros que l'utilisateur lui aura donné.</li>
+		<li>Seuls les numéros INAMI sont acceptés comme identifiant d'un participant. Les numéros de registre national ne sont pas gérés.</li>
+	</ul>
+
+	<h2>A propos</h2>
+	<p>Le code source de cette application est hébergé sur <a href="https://github.com/Onicha/Rizinami" alt="GitHub">GitHub</a>. En cas de problème, il vous est possible de laisser un commentaire ouvert depuis <a href="https://github.com/Onicha/Rizinami/issues" alt="">la page suivante</a>.</p>
 {% endblock %}
