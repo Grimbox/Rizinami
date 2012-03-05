@@ -1,0 +1,10 @@
+001 Dentiste généraliste
+002 Capacitaire
+003 Médecin dentiste diplômé avant 1929
+004 Médecin dentiste
+005 Médecin stomatologue
+006 Dentiste spécialiste en parodontologie
+007 Dentiste spécialiste en orthodontie
+010 Dentiste généraliste - en formation
+060 Dentiste spécialiste en parodontologie - en formation
+070 Dentiste spécialiste en orthodontie - en formation

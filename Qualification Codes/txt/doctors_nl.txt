@@ -1,0 +1,178 @@
+000 Geneesheer ingeschreven na 31/12/ 2004
+009 Geneesheer ingeschreven tussen 01/01/1995 en 31/12/2004
+001 Algemeen geneeskundige ingeschreven voor 01/01/1995
+002 Algemeen geneeskundige + EKG aan 75 % ingeschreven voor 01/01/1995
+003 Algemeen geneeskundige, houder van een getuigschrift van aanvullende opleiding
+004 Algemeen geneeskundige, houder van een getuigschrift van aanvullende opleiding + EKG aan 100 %
+005 Kandidaat huisarts (KHA)
+006 Kandidaat huisarts (KHA) + EKG aan 75 %
+007 Algemeen geneeskundige, houder van een getuigschrift van aanvullende opleiding + F en P
+008 Algemeen geneeskundige, houder van een getuigschrift van aanvullende opleiding + EKG aan 100 % + F en P
+010 Geneesheer-specialist in opleiding voor anesthesie-reanimatie
+014 Geneesheer-specialist in opleiding voor heelkunde
+017 Geneesheer-specialist in opleiding voor neurochirurgie
+018 Geneesheer-specialist in opleiding voor geriatrie
+021 Geneesheer-specialist in opleiding voor plastische heelkunde
+034 Geneesheer-specialist in opleiding voor gynecologie en verloskunde
+037 Geneesheer-specialist in opleiding voor oftalmologie
+041 Geneesheer-specialist in opleiding voor otorhinolaryngologie
+045 Geneesheer-specialist in opleiding voor urologie
+048 Geneesheer-specialist in opleiding voor orthopedische heelkunde
+052 Geneesheer-specialist in opleiding voor stomatologie
+055 Geneesheer-specialist in opleiding voor dermato-venereologie
+058 Geneesheer-specialist in opleiding voor inwendige geneeskunde
+062 Geneesheer-specialist in opleiding voor pneumologie
+065 Geneesheer-specialist in opleiding voor gastro-enterologie
+066 Geneesheer-specialist in opleiding voor medische oncologie
+069 Geneesheer-specialist in opleiding voor kindergeneeskunde
+073 Geneesheer-specialist in opleiding voor cardiologie
+077 Geneesheer-specialist in opleiding voor neurologie
+078 Geneesheer-specialist in opleiding voor psychiatrie
+079 Geneesheer-specialist in opleiding voor reumatologie
+080 Geneesheer-specialist in opleiding voor acute geneeskunde
+083 Geneesheer-specialist in opleiding in de fysische geneeskunde en de revalidatie
+086 Geneesheer-specialist in opleiding voor klinische biologie
+087 Geneesheer-specialist in opleiding in pathologische anatomie
+090 Geneesheer-specialist in opleiding voor de urgentiegeneeskunde
+093 Geneesheer-specialist in opleiding voor röntgendiagnose
+096 Geneesheer-specialist in opleiding in de radiotherapie
+097 Geneesheer-specialist in opleiding voor nucleaire geneeskunde
+100 Geneesheer-specialist voor anesthesie-reanimatie
+101 Geneesheer-specialist voor anesthesie-reanimatie en algemene geneeskunde
+109 Geneesheer-specialist voor anesthesie-reanimatie, houder van de bijzondere beroepstitel in de urgentiegeneeskunde
+131 Geneesheer-specialist voor anesthesie-reanimatie en cardiologie
+137 Geneesheer-specialist voor anesthesie-reanimatie en klinische biologie
+140 Geneesheer-specialist voor heelkunde
+146 Geneesheer-specialist voor heelkunde en gynecologie-verloskunde
+149 Geneesheer-specialist voor heelkunde,houder van de bijzondere beroepstitel in de urgentiegeneeskunde
+151 Geneesheer-specialist voor heelkunde en orthopedische heelkunde
+152 Geneesheer-specialist voor heelkunde en stomatologie
+153 Geneesheer-specialist voor heelkunde en F en P
+154 Geneesheer-specialist voor heelkunde en orthopedische heelkunde + F en P
+157 Geneesheer-specialist voor heelkunde en pneumologie
+162 Geneesheer-specialist voor heelkunde en neuropsychiatrie
+166 Geneesheer-specialist voor heelkunde en fysische geneeskunde + F en P
+170 Geneesheer-specialist voor neurochirurgie
+174 Geneesheer-specialist voor neurochirurgie en F en P
+179 Geneesheer-specialist voor neurochirurgie, houder van de bijzondere beroepstitel in de urgentiegeneeskunde
+180 Geneesheer specialist voor geriatrie
+184 Geneesheer specialist voor geriatrie en F.P
+192 Geneesheer-specialist voor neurochirurgie en neuropsychiatrie
+195 Geneesheer-specialist voor neurochirurgie en neuropsychiatrie + F en P
+210 Geneesheer-specialist voor plastische heelkunde
+219 Geneesheer-specialist voor plastische heelkunde,houder van de bijzondere beroepstitel in de urgentiegeneeskunde
+222 Geneesheer-specialist voor plastische heelkunde en stomatologie
+340 Geneesheer-specialist voor gynecologie en verloskunde
+341 Geneesheer-specialist voor gynecologie en verloskunde en pathologische anatomie
+369 Geneesheer-specialist voor gynecologie en verloskunde en radiotherapie
+370 Geneesheer-specialist voor oftalmologie
+371 Geneesheer-specialist voor oftalmologie en algemene geneeskunde
+374 Geneesheer-specialist voor oftalmologie en F en P
+378 Geneesheer-specialist voor oftalmologie en ORL
+397 Geneesheer-specialist voor oftalmologie en klinische biologie
+410 Geneesheer-specialist voor othorhinolaryngologie
+414 Geneesheer-specialist voor othorhinolaryngologie + F en P
+422 Geneesheer-specialist voor othorhinolaryngologie en stomatologie
+450 Geneesheer-specialist voor urologie
+454 Geneesheer-specialist voor urologie en F en P
+455 Geneesheer-specialist voor urologie en dermato-venereologie
+459 Geneesheer-specialist voor urologie,houder van de bijzondere beroepstitel in de urgentiegeneeskunde
+480 Geneesheer-specialist voor orthopedische heelkunde
+489 Geneesheer-specialist voor orthopedische heelkunde,houder van de bijzondere beroepstitel in de urgentiegeneeskunde
+494 Geneesheer-specialist voor orthopedische heelkunde en F en P
+495 Geneesheer-specialist voor orthopedische heelkunde en fysische geneeskunde en revalidatie en F en P
+496 Geneesheer-specialist voor orthopedische heelkunde en fysische geneeskunde en revalidatie
+520 Geneesheer-specialist voor stomatologie
+521 Geneesheer-specialist voor stomatologie en algemene geneeskunde
+550 Geneesheer-specialist voor dermato-venereologie
+566 Geneesheer-specialist voor dermato-venereologie en fysische geneeskunde en revalidatie
+567 Geneesheer-specialist voor dermato-venereologie en klinische biologie
+569 Geneesheer-specialist voor dermato-venereologie en radiotherapie
+573 Geneesheer-specialist voor inwendige geneeskunde,geriatrie en endocrino-diabetologie
+580 Geneesheer-specialist voor inwendige geneeskunde
+581 Geneesheer specialist voor inwendige geneeskunde,houder van de bijzondere beroepsbekwaming in de geriatrie
+582 Geneesheer-specialist voor inwendige geneeskunde en nucleaire geneeskunde in vitro
+583 Geneesheer specialist voor inwendige geneeskunde,houder van de bijzondere beroepsbekwaming in de endocrino-diabetologie
+584 Geneesheer-specialist voor inwendige geneeskunde en F en P
+585 Geneesheer-specialist voor in wendige geneeskunde en reumatologie en F en P
+586 Geneesheer specialist voor inwendige geneeskunde,houder van de bijzondere beroepsbekwaming in de geriatrie en Fen P
+587 Geneesheer-specialist voor inwendige geneeskunde en pneumologie
+588 Geneesheer-specialist voor inwendige geneeskunde en gastro-enterologie
+589 Geneesheer-specialist voor inwendige geneeskunde,houder van de bijzondere beroepstitel in de urgentiegeneeskunde
+591 Geneesheer-specialist voor inwendige geneeskunde en cardiologie
+592 Geneesheer-specialist voor inwendige geneeskunde en neuropsychiatrie
+593 Geneesheer-specialist voor inwendige geneeskunde en reumatologie
+594 Geneesheer-specialist voor inwendige geneeskunde en klinische biologie en nucleaire geneeskunde in vitro
+595 Geneesheer-specialist voor inwendige geneeskunde en cardiologie en F en P
+597 Geneesheer-specialist voor inwendige geneeskunde en klinische biologie
+598 Geneesheer-specialist houder van de bijzondere beroepstitel in de klinische hematologie
+620 Geneesheer-specialist voor pneumologie
+624 Geneesheer-specialist voor pneumologie en F en P
+628 Geneesheer-specialist voor pneumologie,houder van de bijzondere beroepstitel in de urgentiegeneeskunde
+629 Geneesheer-specialist voor pneumologie en kindergeneeskunde
+631 Geneesheer-specialist voor pneumologie en cardiologie
+638 Geneesheer-specialist voor pneumologie en röntgendiagnose
+650 Geneesheer-specialist voor gastro-enterologie
+651 Geneesheer-specialist voor gastro-enterologie en algemene geneeskunde
+659 Geneesheer-specialist voor gastro-enterologie,houder van de bijzondere beroepstitel in de urgentiegeneeskunde
+660 Geneesheer-specialist voor medische oncologie
+689 Geneesheer-specialist voor kindergeneeskunde en neuropsychiatrie en F en P
+690 Geneesheer-specialist voor kindergeneeskunde
+691 Geneesheer-specialist voor kindergeneeskunde, houder van de bijzondere beroepstitel in de pediatrische neurologie
+694 Geneesheer-specialist voor kindergeneeskunde en F en P
+695 Geneesheer-specialist voor kindergeneeskunde en fysische geneeskunde en revalidatie en F en P
+696 Geneesheer-specialist voor kindergeneeskunde, houder van de bijzondere beroepstitel in de pediatrische neurologie en houder van de bijzondere beroepstitel in de functionele en professionele revalidatie voor gehandicapten.
+697 Geneesheer-specialist voor kindergeneeskunde en klinische biologie
+699 Geneesheer-specialist voor kindergeneeskunde,houder van de bijzondere beroepstitel in de urgentiegeneeskunde
+730 Geneesheer-specialist voor cardiologie
+731 Geneesheer-specialist voor cardiologie en algemene geneeskunde
+734 Geneesheer-specialist voor cardiologie en F en P
+735 Geneesheer-specialist voor cardiologie en reumatologie en F en P
+736 Geneesheer-specialist voor cardiologie en fysische geneeskunde en fysiotherapie
+739 Geneesheer-specialist voor cardiologie,houder van de bijzondere beroepstitel in de urgentiegeneeskunde
+760 Geneesheer-specialist voor neuropsychiatrie
+764 Geneesheer-specialist voor neuropsychiatrie en F en P
+770 Geneesheer-specialist voor neurologie
+774 Geneesheer-specialist voor neurologie en F en P
+779 Geneesheer-specialist voor neurologie,houder van de bijzondere beroepstitel in de urgentiegeneeskunde
+780 Geneesheer-specialist voor psychiatrie
+784 Geneesheer-specialist voor psychiatrie en F en P
+790 Geneesheer-specialist voor reumatologie
+793 Geneesheer-specialist voor reumatologie en nucleaire geneeskunde en F en P
+794 Geneesheer-specialist voor reumatologie en F en P
+795 Geneesheer-specialist voor reumatologie en fysiotherapie en F en P
+796 Geneesheer-specialist voor reumatologie en fysiotherapie
+799 Geneesheer-specialist voor reumatologie houder van de bijzondere beroepstitel in de urgentiegeneeskunde
+800 Geneesheer-specialist voor acute geneeskunde
+830 Geneesheer-specialist voor fysische geneeskunde en revalidatie
+831 Geneesheer-specialist voor fysische geneeskunde (fysiotherapie) en algemene geneeskunde
+834 Geneesheer-specialist voor fysische geneeskunde en revalidatie en F en P
+835 Geneesheer-specialist voor fysische geneeskunde (fysiotherapie) en radiotherapie en F en P
+836 Geneesheer-specialist voor fysische geneeskunde (fysiotherapie) en röntgendiagnose en F en P
+838 Geneesheer-specialist voor fysische geneeskunde (fysiotherapie) en röntgendiagnose
+839 Geneesheer-specialist voor fysische geneeskunde (fysiotherapie) en radiotherapie
+860 Geneesheer-specialist voor klinische biologie
+861 Geneesheer-specialist voor klinische biologie en algemene geneeskunde
+862 Geneesheer-specialist voor klinische biologie en nucleaire geneeskunde in vitro
+866 Geneesheer-specialist voor klinische biologie en pathologische anatomie en nucleaire geneeskunde in vitro
+867 Geneesheer-specialist voor klinische biologie en pathologische anatomie
+870 Geneesheer-specialist voor pathologische anatomie
+900 Geneesheer-specialist voor de urgentiegeneeskunde
+930 Geneesheer-specialist voor röntgendiagnose
+939 Geneesheer-specialist voor röntgendiagnose en radiotherapie
+960 Geneesheer-specialist in de radiotherapie
+965 Geneesheer-specialist in de radiotherapie, nucleaire geneeskunde en F en P
+970 Geneesheer-specialist in de nucleaire geneeskunde
+972 Geneesheer-specialist in de nucleaire geneeskunde en heelkunde
+978 Geneesheer-specialist in de nucleaire geneeskunde en gynecologie en verloskunde
+983 Geneesheer-specialist voor inwendige geneeskunde en nucleaire geneeskunde, houder van de bijzondere beroepsbekwaming in endocrino-diabetologie
+985 Geneesheer-specialist voor nucleaire geneeskunde en inwendige geneeskunde
+987 Geneesheer-specialist voor nucleaire geneeskunde en gastro-enterologie
+988 Geneesheer-specialist voor nucleaire geneeskunde en kindergeneeskunde
+989 Geneesheer-specialist voor nucleaire geneeskunde en cardiologie
+991 Geneesheer-specialist voor nucleaire geneeskunde en reumatologie
+992 Geneesheer-specialist voor nucleaire geneeskunde en fysiotherapie
+994 Geneesheer-specialist voor nucleaire geneeskunde en röntgendiagnose
+995 Geneesheer-specialist voor nucleaire geneeskunde en radiotherapie
+996 Geneesheer-specialist voor nucleaire geneeskunde en inwendige geneeskunde en F en P
+997 Geneesheer-specialist voor nucleaire geneeskunde, röntgendiagnose en radiotherapie

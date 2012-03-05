@@ -1,0 +1,177 @@
+000 Médecin inscrit après le 31/ 12/ 2004
+009 Médecin inscrit entre le 01/ 01/ 1995 et le 31/ 12/ 2004
+001 Médecin de médecine générale inscrit avant le 01/ 01/ 1995
+002 Médecin de médecine générale + ECG à 75 % inscrit avant le 01/ 01/ 1995
+003 Médecin de médecine générale, porteur d'un certificat de formation complémentaire
+004 Médecin de médecine générale, porteur d'un certificat de formation complémentaire + ECG à 100 %
+005 Candidat-Médecin généraliste (CMG)
+006 Candidat-Médecin généraliste (CMG) + ECG à 75 % (
+007 Médecin de médecine générale, porteur d'un certificat de formation complémentaire + F et P
+008 Médecin de médecine générale, porteur d'un certificat de formation complémentaire + ECG à 100 % + F et P
+010 Médecin spécialiste en formation en anesthésie-réanimation
+014 Médecin spécialiste en formation en chirurgie
+017 Médecin spécialiste en formation en neurochirurgie
+018 Médecin spécialiste en formation en gériatrie
+021 Médecin spécialiste en formation en chirurgie plastique
+034 Médecin spécialiste en formation en gynécologie-obstétrique
+037 Médecin spécialiste en formation en ophtalmologie
+041 Médecin spécialiste en formation en oto-rhino-laryngologie
+045 Médecin spécialiste en formation en urologie
+048 Médecin spécialiste en formation en chirurgie orthopédique
+052 Médecin spécialiste en formation en stomatologie
+055 Médecin spécialiste en formation en dermato-vénéréologie
+058 Médecin spécialiste en formation en médecine interne
+062 Médecin spécialiste en formation en pneumologie
+065 Médecin spécialiste en formation en gastro-entérologie
+066 Médecin spécialiste en formation en oncologie médicale
+069 Médecin spécialiste en formation en pédiatrie
+073 Médecin spécialiste en formation en cardiologie
+077 Médecin spécialiste en formation en neurologie
+078 Médecin spécialiste en formation en psychiatrie
+079 Médecin spécialiste en formation en rhumatologie
+080 Médecin spécialiste en formation en médecine aigüe
+083 Médecin spécialiste en formation en médecine physique et revalidation
+086 Médecin spécialiste en formation en biologie clinique
+087 Médecin spécialiste en formation en anatomie pathologique
+090 Médecin spécialiste en formation en médecine d’urgence
+093 Médecin spécialiste en formation en radiodiagnostic
+096 Médecin spécialiste en formation en radiothérapie
+097 Médecin spécialiste en formation en médecine nucléaire
+100 Médecin spécialiste en anesthésie-réanimation
+101 Médecin spécialiste en anesthésie-réanimation et médecine générale
+109 Médecin spécialiste en anesthésie-réanimation,porteur du titre professionnel particulier en médecine d’urgence
+131 Médecin spécialiste en anesthésie-réanimation et cardiologie
+137 Médecin spécialiste en anesthésie-réanimation et biologie clinique
+140 Médecin spécialiste en chirurgie
+146 Médecin spécialiste en chirurgie et gynécologie-obstétrique
+149 Médecin spécialiste en chirurgie,porteur du titre professionnel particulier en médecine d’urgence
+151 Médecin spécialiste en chirurgie et chirurgie orthopédique
+152 Médecin spécialiste en chirurgie et stomatologie
+153 Médecin spécialiste en chirurgie et F et P
+154 Médecin spécialiste en chirurgie et chirurgie orthopédique + F et P
+157 Médecin spécialiste en chirurgie et pneumologie
+162 Médecin spécialiste en chirurgie et neuropsychiatrie
+166 Médecin spécialiste en chirurgie et médecine physique + F et P
+170 Médecin spécialiste en neurochirurgie
+174 Médecin spécialiste en neurochirurgie + F et P
+179 Médecin spécialiste en neurochirurgie, porteur du titre professionnel particulier en médecine d’urgence
+180 Médecin spécialiste en gériatrie
+184 Médecin spécialiste en gériatrie et F et P
+192 Médecin spécialiste en neurochirurgie et neuropsychiatrie
+195 Médecin spécialiste en neurochirurgie et neuropsychiatrie + F et P
+210 Médecin spécialiste en chirurgie plastique
+219 Médecin spécialiste en chirurgie plastique,porteur du titre professionnel particulier en médecine d’urgence
+222 Médecin spécialiste en chirurgie plastique et stomatologie
+340 Médecin spécialiste en gynécologie obstétrique
+341 Médecin spécialiste en gynécologie obstétrique et anatomie pathologique
+369 Médecin spécialiste en gynécologie obstétrique et radiothérapie
+370 Médecin spécialiste en ophtalmologie
+371 Médecin spécialiste en ophtalmologie et médecine générale
+374 Médecin spécialiste en ophtalmologie et F et P
+378 Médecin spécialiste en ophtalmologie et ORL
+397 Médecin spécialiste en ophtalmologie et biologie clinique
+410 Médecin spécialiste en oto-rhino-laryngologie
+414 Médecin spécialiste en oto-rhino-laryngologie et F et P
+422 Médecin spécialiste en oto-rhino-laryngologie et stomatologie
+450 Médecin spécialiste en urologie
+454 Médecin spécialiste en urologie et F et P
+455 Médecin spécialiste en urologie et dermato-vénéréologie
+459 Médecin spécialiste en urologie,porteur du titre professionnel particulier en médecine d’urgence
+480 Médecin spécialiste en chirurgie orthopédique
+489 Médecin spécialiste en chirurgie orthopédique,porteur du titre professionnel particulier en médecine d’urgence
+494 Médecin spécialiste en chirurgie orthopédique et F et P
+495 Médecin spécialiste en chirurgie orthopédique et médecine physique et réadaptation et F et P
+496 Médecin spécialiste en chirurgie orthopédique en médecine physique et réadaptation
+520 Médecin spécialiste en stomatologie
+521 Médecin spécialiste en stomatologie et médecine générale
+550 Médecin spécialiste en dermato-vénéréologie
+566 Médecin spécialiste en dermato-vénéréologie et médecine physique et réadaptation
+567 Médecin spécialiste en dermato-vénéréologie et biologie clinique
+569 Médecin spécialiste en dermato-vénéréologie et radiothérapie
+573 Médecin spécialiste en médecine interne, gériatrie et endocrino-diabétologie
+580 Médecin spécialiste en médecine interne
+581 Médecin spécialiste en médecine interne porteur du titre professionnel particulier en gériatrie
+582 Médecin spécialiste en médecine interne et médecine nucléaire in vitro
+583 Médecin spécialiste en médecine interne, porteur du titre professionnel particulier en endocrino-diabétologie
+584 Médecin spécialiste en médecine interne et F et P
+585 Médecin spécialiste en médecine interne et rhumatologie et F et P
+586 Médecin spécialiste en médecine interne, porteur du titre professionnel particulier en gériatrie et F et P
+587 Médecin spécialiste en médecine interne et pneumologie
+588 Médecin spécialiste en médecine interne et gastro-entérologie
+589 Médecin spécialiste en médecine interne,porteur du titre professionnel particulier en médecine d’urgence
+591 Médecin spécialiste en médecine interne et cardiologie
+592 Médecin spécialiste en médecine interne et neuropsychiatrie
+593 Médecin spécialiste en médecine interne et rhumatologie
+594 Médecin spécialiste en médecine interne et biologie clinique et médecine nucléaire in vitro
+595 Médecin spécialiste en médecine interne et cardiologie et F et P
+597 Médecin spécialiste en médecine interne et biologie clinique
+620 Médecin spécialiste en pneumologie
+624 Médecin spécialiste en pneumologie et F et P
+628 Médecin spécialiste en pneumologie,porteur du titre professionnel particulier en médecine d’urgence
+629 Médecin spécialiste en pneumologie et pédiatrie
+631 Médecin spécialiste en pneumologie et cardiologie
+638 Médecin spécialiste en pneumologie et radiodiagnostic
+650 Médecin spécialiste en gastro-entérologie
+651 Médecin spécialiste en gastro-entérologie et médecine générale
+659 Médecin spécialiste en gastro-entérologie,porteur du titre professionnel particulier en médecine d’urgence
+660 Médecin spécialiste en oncologie médicale
+689 Médecin spécialiste en pédiatrie et neuropsychiatrie et F et P
+690 Médecin spécialiste en pédiatrie
+691 Médecin spécialiste en pédiatrie, porteur du titre professionnel particulier en neurologie pédiatrique
+694 Médecin spécialiste en pédiatrie et F et P
+695 Médecin spécialiste en pédiatrie et médecine physique et réadaptation et F et P
+696 Médecin spécialiste en pédiatrie, porteur du titre professionnel particulier en neurologie pédiatrique et porteur du titre professionnel particulier en réadaptation fonctionnelle et professionnelle des handicapés
+697 Médecin spécialiste en pédiatrie et biologie clinique
+699 Médecin spécialiste en pédiatrie,porteur du titre professionnel particulier en médecine d’urgence
+730 Médecin spécialiste en cardiologie
+731 Médecin spécialiste en cardiologie et médecine générale
+734 Médecin spécialiste en cardiologie et F et P
+735 Médecin spécialiste en cardiologie et rhumatologie et F et P
+736 Médecin spécialiste en cardiologie et médecine physique et physiothérapie
+739 Médecin spécialiste en cardiologie,porteur du titre professionnel particulier en médecine d’urgence
+760 Médecin spécialiste en neuropsychiatrie
+764 Médecin spécialiste en neuropsychiatrie et F et P
+770 Médecin spécialiste en neurologie
+774 Médecin spécialiste en neurologie et F et P
+779 Médecin spécialiste en neurologie,porteur du titre professionnel particulier en médecine d’urgence
+780 Médecin spécialiste en psychiatrie
+784 Médecin spécialiste en psychiatrie et F et P
+790 Médecin spécialiste en rhumatologie
+793 Médecin spécialiste en rhumatologie et médecine nucléaire et F et P
+794 Médecin spécialiste en rhumatologie et F et P
+795 Médecin spécialiste en rhumatologie et physiothérapie et F et P
+796 Médecin spécialiste en rhumatologie et physiothérapie
+799 Médecin spécialiste en rhumatologie,porteur du titre professionnel particulier en médecine d’urgence
+800 Médecin spécialiste en médecine aigüe
+830 Médecin spécialiste en médecine physique et revalidation
+831 Médecin spécialiste en médecine physique (physiothérapie) et médecine générale
+834 Médecin spécialiste en médecine physique et revalidation et F et P
+835 Médecin spécialiste en médecine physique (physiothérapie) et radiothérapie et F et P
+836 Médecin spécialiste en médecine physique (physiothérapie) et radiodiagnostic et F et P
+838 Médecin spécialiste en médecine physique (physiothérapie) et radiodiagnostic
+839 Médecin spécialiste en médecine physique (physiothérapie) et radiothérapie
+860 Médecin spécialiste en biologie clinique
+861 Médecin spécialiste en biologie clinique et médecine générale
+862 Médecin spécialiste en biologie clinique et médecine nucléaire in vitro
+866 Médecin spécialiste en biologie clinique et anatomie pathologique et médecine nucléaire in vitro
+867 Médecin spécialiste en biologie clinique et anatomie pathologique
+870 Médecin spécialiste en anatomie pathologique
+900 Médecin spécialiste en médecine d’urgence
+930 Médecin spécialiste en radiodiagnostic
+939 Médecin spécialiste en radiodiagnostic et radiothérapie
+960 Médecin spécialiste en radiothérapie
+965 Médecin spécialiste en radiothérapie, médecine nucléaire et F et P
+970 Médecin spécialiste en médecine nucléaire
+972 Médecin spécialiste en médecine nucléaire et chirurgie
+978 Médecin spécialiste en médecine nucléaire et gynécologie obstétrique
+983 Médecin spécialiste en médecine interne et en médecine nucléaire, porteur du titre professionnel particulier en endocrino-diabétologie
+985 Médecin spécialiste en médecine nucléaire et médecine interne
+987 Médecin spécialiste en médecine nucléaire et gastro-entérologie
+988 Médecin spécialiste en médecine nucléaire et pédiatrie
+989 Médecin spécialiste en médecine nucléaire et cardiologie
+991 Médecin spécialiste en médecine nucléaire et rhumatologie
+992 Médecin spécialiste en médecine nucléaire et physiothérapie
+994 Médecin spécialiste en médecine nucléaire et radiodiagnostic
+995 Médecin spécialiste en médecine nucléaire et radiothérapie
+996 Médecin spécialiste en médecine nucléaire et médecine interne et F et P
+997 Médecin spécialiste en médecine nucléaire, radiodiagnostic et radiothérapie
