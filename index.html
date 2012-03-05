@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block scripts %}	
+    <link href="/stylesheets/form.css" rel="Stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#reviewDate').datepicker({
+            	dateFormat: 'yy-mm-dd',
+                date: $('#reviewDate').val(),
+                current: $('#reviewDate').val(),
+                firstDay: 1,
+                starts: 1,
+                position: 'r',
+                changeMonth: false,
+                changeYear: false,
+                yearRange: "-5:+5",
+                onBeforeShow: function () {
+                    $('#reviewDate').datepickerSetDate($('#reviewDate').val(), true);
+                }
+            });
+
+            $("#peerReviewForm").validate({
+                rules: {
+                    reviewName: "required",
+                    reviewDate: "required",
+                    content: "required",
+                },   
+                messages: {
+                    reviewName: "* Merci d'entrer l'identifiant de l'activité.",
+                    reviewDate: "* Merci d'entrer la date à laquelle l'activité s'est déroulée.",
+                    content : "* Merci d'entrer ici la liste des numéros INAMI correspondant aux participants."
+                }
+            });
+        });
+    </script>
+    <style type="text/css">
+        #peerReviewForm label.error, #commentForm input.submit 
+        { 
+            float: none; color: red; padding-left: .5em; vertical-align: top;
+        }
+        #peerReview p { clear:both;}
+    </style>
+    
+{% endblock %}
+
+{% block content %}
+	<form id="peerReviewForm" action="/peerReview" method="post">
+        <h1>Détails de l'activité:</h1>
+        <fieldset id="column1">
+            <label for="reviewName">Activité:</label>
+            <input type="text" name="reviewName" value="" class="required" /> 
+        
+            <label for="reviewDate">Date:</label> 
+            <input type="date" id="reviewDate" name="reviewDate" value="" class="required" /> 
+        
+        </fieldset>
+
+        <fieldset id="column2">
+            <label for="content">Numéros INAMI des participants:</label>
+            <textarea name="content" rows="0" cols="0" class="required"></textarea>
+
+            <input type="submit" value="Téléchargement" name="submit" class="submit" />       
+        </fieldset>
+		
+	</form>
+{% endblock %}
