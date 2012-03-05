@@ -1,0 +1,10 @@
+001 Algemeen tandarts
+002 Bevoegde
+003 Geneesheer-tandarts gediplomeerd voor 1929
+004 Geneesheer-tandarts
+005 Geneesheer-stomatoloog
+006 Tandarts-specialist in de parodontologie
+007 Tandarts-specialist in de orthodontie
+010 Algemeen tandarts - in opleiding
+060 Tandarts-specialist in de parodontologie - in opleiding
+070 Tandarts-specialist in de orthodontie - in opleiding
